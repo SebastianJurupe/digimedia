@@ -1,0 +1,24 @@
+[12-May-2023 22:14:44 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/ghxumdmy/public_html/digimediamkt/intranet.php on line 114
+[12-May-2023 22:14:44 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home3/ghxumdmy/public_html/digimediamkt/intranet.php:120
+Stack trace:
+#0 /home3/ghxumdmy/public_html/digimediamkt/intranet.php(120): mysqli_query(false, 'SELECT * FROM c...')
+#1 {main}
+  thrown in /home3/ghxumdmy/public_html/digimediamkt/intranet.php on line 120
+[12-May-2023 22:27:15 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/ghxumdmy/public_html/digimediamkt/intranet.php on line 114
+[12-May-2023 22:27:15 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home3/ghxumdmy/public_html/digimediamkt/intranet.php:120
+Stack trace:
+#0 /home3/ghxumdmy/public_html/digimediamkt/intranet.php(120): mysqli_query(false, 'SELECT * FROM c...')
+#1 {main}
+  thrown in /home3/ghxumdmy/public_html/digimediamkt/intranet.php on line 120
+[12-May-2023 22:30:34 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/ghxumdmy/public_html/digimediamkt/intranet.php on line 114
+[12-May-2023 22:30:34 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home3/ghxumdmy/public_html/digimediamkt/intranet.php:120
+Stack trace:
+#0 /home3/ghxumdmy/public_html/digimediamkt/intranet.php(120): mysqli_query(false, 'SELECT * FROM c...')
+#1 {main}
+  thrown in /home3/ghxumdmy/public_html/digimediamkt/intranet.php on line 120
+[12-May-2023 22:30:41 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/ghxumdmy/public_html/digimediamkt/intranet.php on line 114
+[12-May-2023 22:30:41 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home3/ghxumdmy/public_html/digimediamkt/intranet.php:120
+Stack trace:
+#0 /home3/ghxumdmy/public_html/digimediamkt/intranet.php(120): mysqli_query(false, 'SELECT * FROM c...')
+#1 {main}
+  thrown in /home3/ghxumdmy/public_html/digimediamkt/intranet.php on line 120

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Inter:wght@500&family=Lato:ital,wght@0,700;0,900;1,300;1,700&family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300&family=Roboto:ital,wght@1,100&display=swap');
+/* SECCION TE GARANTIZAMOS*/
+
+.contenedor_gs_web_cont h1{
+    font-size: 44px;
+    color: #009BFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor_rd_sls_{
+    background-color: white;
+}
+
+.img-portafolio img{
+    min-height: 325px;
+}
+
+.img-portafolio{
+    position: relative;
+    overflow: hidden;
+    z-index: 50;
+    /*transicion para el efecto*/
+    transition-property: transform;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    border-radius: 50px;
+    
+}  
+
+
+
+.porta-po{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 20, 51, 0.8);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    color: white;
+    padding: 30px ;
+    border-radius: 50px;
+
+
+}
+
+.porta-po div{
+
+    text-align: center;
+}
+
+.porta-po:hover{
+    opacity: 1;
+    transform: scale(1.1);
+
+
+}
+
+/*-------------------------------------*/
+/*@media (max-width:920px) {
+    .porta-po{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(21, 20, 51, 0.8);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        opacity: 0;
+        color: white;
+        padding: 30px ;
+    }
+    .porta-po:hover{
+        opacity: 1;
+        transform: scale(1.1);
+    
+    }
+    .porta-po div{
+        position: absolute;
+        top: center;
+        margin: 25px 0 0 25px;
+    }
+
+}
+*/

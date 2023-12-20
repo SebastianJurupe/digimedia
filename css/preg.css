@@ -1,0 +1,483 @@
+header .container-fluid {
+
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .navb-logo img {
+
+    width: 140px;
+    height: 66px;
+
+}
+
+header .navb-items {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    letter-spacing: 5px;
+}
+
+header .item {
+
+    text-align: center;
+    margin-inline: 15%;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    padding: 5px 0;
+    transition: all .1s ease;
+    border-bottom: 0px solid #64d6f4;
+    border-top: 0px solid #64d6f4;
+    cursor: pointer;
+}
+
+header .item:hover {
+
+    border-bottom: 3px solid #64d6f4;
+    border-top: 3px solid #64d6f4;
+}
+
+header .item-button a {
+
+    background-color: #274d8a;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+header .item-button a:hover {
+
+    background-color: #64d6f4;
+}
+
+header .mobile-toggler {
+
+    font-size: 30px;
+}
+.mobile-modal-footer {
+
+    width: 87%;
+    margin: 0 auto;
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+
+.mobile-modal-footer i:hover {
+
+    color: #9e7fe2;
+}
+
+
+.section-1 {
+
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 p {
+
+    font-size: 75px;
+    font-weight: 700;
+    color: #102447;
+    width: 90%;
+    text-align: center;
+}
+
+
+header.abajo .logo,
+header.abajo ul li a {
+    color: #000;
+}
+
+.contactanos-image{
+    background-image: url('../img/contactanos.webp');
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.banner-image {
+    background-image: url('../img/banner.webp');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.banner-image2 {
+    background-image: url('../img/banner_preguntas.webp');
+    background-size: cover;
+}
+.banner-image2{
+    margin-top: 60px;
+    width: 100%;
+    height: 60%;
+}
+.letraxx{
+    margin-left: 50%;
+}
+.fa{
+    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
+    color: #FF0C7D;
+    width: 70%;
+    font-size: 65px;
+    font-family: Arial, sans-serif;
+ }
+
+.red{
+    position: fixed;
+    top: 480px;
+    z-index: 100;
+    left: 4%;
+}
+
+.red #facebook{
+    padding-bottom: 10px;
+}
+
+.red #instagram{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.red #twitter{
+    padding-top: 10px;
+}
+
+ .faq {
+    margin-top: 20px;
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .faq h4{
+    margin-top: 20px;
+  }
+  
+  .question {
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(244, 101, 105);
+  }
+  
+  .question h3 {
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+
+  .question i{
+    float: right;
+    margin-top: -45px;
+  }
+
+  h4{
+    color: #6a27b5;
+    font-weight: 600;
+  }
+  .sub-tit{
+    color: #6a27b5;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  
+  .answer {
+    font-size: 1.0rem;
+    padding: 10px;
+    line-height: 1.3;
+  }
+
+  .rotate{
+    transform: rotate(180deg);
+  }
+  .mensaje{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    background: linear-gradient(333deg, rgba(4,151,252,1) 0%, rgba(106,39,181,1) 34%);
+  }
+  .mensaje h2{
+    color: #fff;
+  }
+  .pyme img{
+    margin-left: 2%;
+    border-radius: 80px 80px 80px 80px;
+    height: 60%;
+    width: 320px;
+    display: flex;
+    text-align: left;
+    background-color: #fff;
+  }
+
+  .pyme p{
+    margin-top: 2.5%;
+    font-size: 1rem;
+  }
+
+  .mype img{
+    margin-left: 5%;
+    border-radius: 80px 80px 80px 80px;
+    height: 60%;
+    width: 320px;
+    display: flex;
+    text-align: left;
+    background-color: #fff;
+  }
+
+  .mype p{
+    margin-top: 2.5%;
+    font-size: 1rem;
+  }
+
+.whatsapp{
+    position: fixed;
+    height: 56px;
+    width: 200px;
+    top: 850px;
+    border-radius: 20px;
+    z-index: 100;
+    right: 2%;
+    background-color: rgb(255, 12, 125);
+}
+.whatsapp img{
+    position: fixed;
+    margin-top: 0.2%;
+    margin-left: 2%;
+}
+.whatsapp p{
+    margin-top: 7.5%;
+    margin-left: 45%;
+    color: rgb(255, 255, 255);
+}
+
+  .search-container {
+    margin-top: 20px;
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .search-container img{
+    width: 20px;
+    height: 15px;
+  }
+  
+  .search-icon {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .search-input {
+    width: 0;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    transition: width 0.5s;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    width: 900px;
+  }
+  .filtro{
+    display: none;
+  }
+  
+
+main{
+    background: linear-gradient(154deg,#009bff 6.718750298023224%,#6a27b5 72.30113744735718%);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.sombra{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78, 167, 255, 0.5);
+}
+.contenedor-principal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41,41,41,0.4) ;
+    
+ }
+.contenedor-secundario{
+    background-color: #000;
+    width: 50%;
+    opacity: 0.3;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    
+}
+.letra{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 8rem;
+    font-weight: bolder;
+}
+.delgado {
+  border-bottom: 5px solid #fff;
+  text-decoration: none;
+}
+
+.banners-letra{
+    position: relative;
+    left:0px;
+    top: -710px;
+    padding-left: 150px;
+    
+}
+.digimedia{
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.creativa{
+    color:#FF0080 ;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.bt{
+    padding: 0;
+    margin: 0;
+    margin-top: 13px;
+}
+.contenedor-principal2{
+    padding-top: 100px;
+}
+.mensaje .pyme{
+    padding-bottom: 0;
+}
+
+/* -----MEDIA QUERIES ------- */
+@media (max-width: 819px) {
+    #banner2{
+        margin-top: 70px;
+        height: 300px;
+    }
+
+
+    .letrs_xst .fa{
+        margin-top: 50px;
+    }
+    .letra-sub{
+        font-size: 23px;
+    }
+    .logoimagen{
+        max-width: 60px;
+        min-width: 150px;
+    }
+    .section-1 p {
+
+        font-size: 50px;
+        text-align: start;
+        width: 70%;
+        margin: auto;
+    }
+    #banner {
+        height: 75%;
+        width: 100%;
+    }
+    #banners-letra{
+        margin-top: 45px;
+    }
+    #prima{
+        width: 150px;
+    }
+    .banners-letra{
+        position: absolute;
+        margin: 0;
+        margin-top: 115px;
+    }
+    
+    .fa{
+        font-size: 23px;
+    }
+    .banners-letra{
+        position: relative;
+        margin: 0;
+        margin-top: 150px;
+    }
+    .search-input:focus {
+        width: 750px;
+    }
+    .mensaje{
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .mensaje h2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        padding: 0;
+    }
+
+    .mensaje .pyme{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+        margin-bottom: 10px;
+    }
+    .mype{
+        margin-left: 0;
+    }
+    .red{
+        display: none;
+    }
+    .search-input:focus {
+        width: 650px;
+    }
+    .contenedor-principal2{
+        padding-top: 0;
+    }
+
+    .preguntas_letras{
+        padding: 20px;
+    }
+
+}
+@media (min-width:820px) and (max-width:1200px){
+    .banner-image2{
+        margin-top: 65px;
+    }
+    .letrs_xst{
+        margin-top: 50px;
+    }
+    .letrs_xst .fa{
+        font-size: 50px;
+
+    }
+}
